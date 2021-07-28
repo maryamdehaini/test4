@@ -1,0 +1,42 @@
+RelativeURLs=true
+CanonifyURLs=true
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Operationalizing the Machine Learning Pipeline"
+theme = "learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+uglyurls = true
+sectionPagesMenu = "main"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+[params]
+  description = "Operationalizing the Machine Learning Pipeline"
+  author = "Trenton Potgieter"
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+  disableSearch = false
+  disableAssetsBusting = true
+  disableLanguageSwitchingButton = false
+  disableShortcutsTitle = true
+  disableInlineCopyToClipBoard = true
+  contentURL = "https://operational-machine-learning-pipeline.workshop.aws"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[Languages]
+[Languages.en]
+title = "Operationalizing the Machine Learning Pipeline"
+weight = 1
+languageName = "English"
